@@ -1,0 +1,21 @@
+
+.container{
+    display: table-row;
+}
+
+
+.block{
+    margin: 11px;
+    padding-right: 13%;
+}
+.block div{
+  justify-content: flex-start;
+}
+.conter{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+img{
+    border-radius: 4%;
+}
