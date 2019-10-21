@@ -23,7 +23,7 @@ export class HomeComponent implements OnInit {
   sendMessage() {
 
     this.count = 1;
-    this.httpS.sendMessage({ text: this.text, num: this.count }).subscribe((val: any) => {
+    this.httpS.sendMessage({ text: this.text, num: this.count }).subscribe((val:any) => {
 
       this.films = val.Search;
 

@@ -14,7 +14,8 @@ export class HttpService{
   }
 
 sendMessage(obj){
-  return this.http.post('http://localhost:3000/all',obj);
+  return this.http.get(`http://localhost:3000/all?obj=${obj.text}&obj2=${obj.num}`);
+
 }
 
 
