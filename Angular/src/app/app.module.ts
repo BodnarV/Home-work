@@ -6,11 +6,12 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule }   from '@angular/forms';
-import { HttpService } from './services/http.service';
+import { HttpService } from './services/GetFilms.service';
 
 import { ReactiveFormsModule }   from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatInputModule } from '@angular/material/input';
+import { AboutComponent } from './components/about/about.component';
 
 
 
@@ -18,6 +19,7 @@ import { MatInputModule } from '@angular/material/input';
   declarations: [
     AppComponent,
     HomeComponent,
+    AboutComponent,
 
   ],
   imports: [
