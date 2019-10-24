@@ -11,6 +11,8 @@ constructor(private http:HttpClient) {}
 
 sendMessage(obj){
   return this.http.get(`http://localhost:3000/user/all?obj=${obj.text}&obj2=${obj.num}`);
+  
+  
 }
 
 }

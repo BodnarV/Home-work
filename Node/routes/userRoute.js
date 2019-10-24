@@ -21,7 +21,6 @@ rout.get('/all', async (req,res)=>{
             console.log('from Cache');
             res.send(value)
         } else {
-
             //==========================================================================================================
 
             request(`http://www.omdbapi.com/?apikey=c7c4011c&s=${text}&page=1`, function (error, response, body1) {

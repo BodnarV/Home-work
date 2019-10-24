@@ -35,9 +35,9 @@ export class HomeComponent implements OnInit {
 
     this.text = this.dataS.Text()  
 
-    if(this.text.length > 2){
-     this.KeyUpsendMessage(); 
-    } 
+    if(this.text != undefined){
+     this.KeyUpsendMessage();   
+    }   
     
     
   } 
